@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/ChristianDeM/Parallaxpage#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
     "lax.js": "^2.0.3"
   }
 }
