@@ -25,4 +25,24 @@ lax.addElements(".logo", {
       ],
     },
   });
+
+  
+lax.addElements(".welcome", {
+  scrollY: {
+    scale: [
+      [0, 90],
+      [1, 3],
+    ],
+    opacity: [
+      [0, 50],
+      [1, 0],
+    ],
+    translateY: [
+      [0, 90],
+      [0, 100],
+    ],
+  },
+});
+
+
 }

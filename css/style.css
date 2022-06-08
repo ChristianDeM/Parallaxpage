@@ -1,9 +1,24 @@
 body{
-   background-color: aqua;
+   background-color: rgba(253, 108, 12, 0.881)!important;
+   overflow-x: hidden;
+}
+h1{
+    font-size: 50px !important; 
+    text-align: center;
+    font-weight: bold;
 }
 
 .logo{
     width: 100%;
     height: 100vh;
-    background-color: black;
-}
+    background-image:url('../img/backlogo.png');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+   }
+
+   .welocome{
+    width: 100%;
+    height: 100vh;
+   
+   }
