@@ -1,18 +1,18 @@
 window.onload=function(){
-    lax.init();
-     window.addEventListener('scroll',(e)=>{
-         console.log(window.screenY);
-     });
+  window.addEventListener("scroll", (e) => {
+    console.log(window.scrollY);
+  });
 
+lax.init();
+lax.addDriver("scrollY", function () {
+  return window.scrollY;
+}); 
 
-lax.addDriver('scrollY',function(){
-    return window.scrollY;
-});
 
 lax.addElements(".logo", {
     scrollY: {
       scale: [
-        [0, 80],
+        [0, 90],
         [1, 3],
       ],
       opacity: [
@@ -20,7 +20,7 @@ lax.addElements(".logo", {
         [1, 0],
       ],
       translateY: [
-        [0, 80],
+        [0, 90],
         [0, 100],
       ],
     },
