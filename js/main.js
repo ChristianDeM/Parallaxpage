@@ -21,7 +21,7 @@ lax.addElements(".logo", {
       ],
       translateY: [
         [0, 80],
-        [0, 200],
+        [0, 100],
       ],
     },
   });
