@@ -27,20 +27,14 @@ lax.addElements(".logo", {
   });
 
   
-lax.addElements(".welcome", {
+lax.addElements(".welocome", {
   scrollY: {
-    scale: [
-      [0, 90],
-      [1, 3],
-    ],
-    opacity: [
-      [0, 50],
-      [1, 0],
-    ],
-    translateY: [
-      [0, 90],
-      [0, 100],
-    ],
+    scrollY: {
+      opacity: [
+        [500, 600],
+        [0, 1],
+      ],
+    },
   },
 });
 
